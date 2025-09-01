@@ -9,10 +9,10 @@ function App() {
   );
 
   const thumbnails = [
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600",
-    "https://images.unsplash.com/photo-1620912189865-bd4d24f1525c?w=600",
-    "https://images.unsplash.com/photo-1601924638867-3ec9d643d3cc?w=600",
-    "https://images.unsplash.com/photo-1514996937319-344454492b37?w=600",
+   "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600",
+    "https://res.cloudinary.com/dgledopgq/image/upload/v1733223705/samples/breakfast.jpg",
+    "https://res.cloudinary.com/dgledopgq/image/upload/v1733223696/samples/food/pot-mussels.jpg",
+    "https://res.cloudinary.com/dgledopgq/image/upload/v1733223696/samples/food/dessert.jpg",
   ];
 
   return (
@@ -120,19 +120,19 @@ function RelatedProducts() {
     {
       id: 1,
       title: "Manuka Honey UMF 10+ / MGO 263",
-      img: "https://images.unsplash.com/photo-1514996937319-344454492b37?w=600",
+      img: "https://res.cloudinary.com/dgledopgq/image/upload/v1733223696/samples/food/fish-vegetables.jpg",
       price: 39.99,
     },
     {
       id: 2,
       title: "Manuka Honey UMF 15+ / MGO 514",
-      img: "https://images.unsplash.com/photo-1601924638867-3ec9d643d3cc?w=600",
+      img: "https://res.cloudinary.com/dgledopgq/image/upload/v1733223707/cld-sample-4.jpg",
       price: 59.99,
     },
     {
       id: 3,
       title: "Manuka Honey UMF 20+ / MGO 829",
-      img: "https://images.unsplash.com/photo-1620912189865-bd4d24f1525c?w=600",
+      img: "https://res.cloudinary.com/dgledopgq/image/upload/v1733223706/samples/coffee.jpg",
       price: 89.99,
     },
   ];
